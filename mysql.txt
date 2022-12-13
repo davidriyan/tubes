@@ -1,0 +1,11 @@
+untuk dapat connect ke database, kita perlu membuat databasenya
+terlebih dahulu, struktur databasenya sebagai berikut:
+
+CREATE TABLE mahasiswa (
+  NPM varchar(10) NOT NULL,
+  Nama_Mahasiswa text NOT NULL,
+  Jurusan varchar(20) NOT NULL,
+  Alamat text NOT NULL,
+  Telepon varchar(14) NOT NULL,
+  PRIMARY KEY (NPM)
+) engine = innodb;
