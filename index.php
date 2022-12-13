@@ -11,20 +11,22 @@ include 'connect.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet">
     <title>CRUD</title>
+
 </head>
 
 <body>
-
     <table class="table table-striped table-hover table-bordered">
         <thead>
-            <th>NPM</th>
-            <th>Nama Mahasiswa</th>
-            <th>Jurusan</th>
-            <th>Alamat</th>
-            <th>Telepon</th>
-            <th>Aksi</th>
+            <tr style="background-color: green;">
+                <th>NPM</th>
+                <th>Nama Mahasiswa</th>
+                <th>Jurusan</th>
+                <th>Alamat</th>
+                <th>Telepon</th>
+                <th>Aksi</th>
+            </tr>
         </thead>
         <?php
         $sqlGet = "SELECT * FROM mahasiswa";
