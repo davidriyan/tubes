@@ -1,6 +1,7 @@
 untuk dapat connect ke database, kita perlu membuat databasenya
 terlebih dahulu, struktur databasenya sebagai berikut:
 
+nama database = db_kampus
 CREATE TABLE mahasiswa (
   NPM varchar(10) NOT NULL,
   Nama_Mahasiswa text NOT NULL,

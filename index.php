@@ -60,8 +60,7 @@ include 'connect.php';
         ?>
 
     </table>
-    </div>
-    </div>
+
     <center>
         <div class="container mt-3">
             <a href="add.php" class="btn btn-md btn-primary mb-3">Tambah Data</a>
